@@ -1,0 +1,184 @@
+/**
+ * 简历页面 样式
+ * Date: 2014.08
+ */
+.res-icon{
+	background: url(../../images/res_icon.png) no-repeat;
+}
+.btn-add .res-icon{
+	background-position: 4px -78px;
+	background-size: 100%;
+}
+
+.ui-res-blk{
+	margin-bottom: 4%;
+	background: #fff;
+}
+.ui-res-blk-tit{
+	padding: 2% 3.1%;
+	border-bottom: 1px solid #ddd;
+}
+.ui-res-blk-tit h3{
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+.ui-res-blk-cnt{
+	padding: 3.1%;
+}
+.res-prev .item{
+	overflow: hidden;
+	margin-bottom: 1%;
+}
+.res-prev .label{
+	/*min-width: 80px;*/
+	float: left; 
+	/*text-align: right;*/
+}
+.res-prev .txt{
+	display: inline-block;
+	float: left;
+}
+.res-prev .name{
+	margin-right: 3.9%;
+	font-size: 1.6rem; font-weight: bold;
+}
+.res-prev select{
+	color: #333;
+}
+.res-prev .item-list{
+	padding-bottom: 2%; margin-bottom: 2%;
+	border-bottom: 1px solid #f3f3f3;
+}
+.res-prev .item-list:last-child{
+	margin-bottom: 0; border-bottom: 0;
+}
+.res-form-box .tips{
+	color: #999; font-size: 1.2rem;
+}
+
+.res-empty{
+	padding: 15% 5%; 
+	text-align: center; font-size: 1.4rem;
+}
+.res-empty .res-link{
+	margin-top: 10%; display: inline-block;
+	color: #004fe0;
+}
+.res-list .item{
+	position: relative;
+	padding: 4% 2.3%;
+	display: block;
+	position: relative;
+	line-height: 1.8em;
+	border-top: 1px solid #f3f3f3;
+}
+.res-list .item a{
+	padding: 0; margin-left: 10px;
+	display: inline-block; line-height: 1.4; 
+	border: 0;
+}
+.res-list .res-icon{
+	position: absolute; top: 50%;
+	display: block; width: 25px; height: 25px;
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	text-indent: -99em;
+	background-size: 100%;
+}
+.icon-prev{
+	right: 20%;
+	background-position: 0 5px;
+}
+.icon-edit{
+	right: 2.3%;
+	background-position: 5px -31px;
+}
+
+.res-edit-box{
+	padding: 10px 0;
+	line-height: 30px;
+	/*height: 30px;*/
+}
+.res-edit-box .s-text{
+	padding: 0 2%;
+	width: 50%; height: 28px;
+	display: inline-block; float: left;
+}
+.res-edit-box .ui-btn-sm2{
+	margin-left: 3%; float: left;
+}
+
+.res-btn{
+	margin: 4% 0;
+}
+.res-list .red{
+	color: #f00;
+}
+.res-list .jobs-date{
+	right: 8%; position: relative;
+}
+
+
+.edit-list .item-list{
+	padding: 3.1%;
+	margin-bottom: 4%;
+	font-size: 1.4rem;
+	background: #fff;
+}
+.edit-list .res-icon{
+	position: absolute; top: 50%;
+	width: 25px; height: 25px; display: block;
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	text-indent: -99em;
+	background-size: 100%;
+}
+.edit-list .icon-delete{
+	right: 0;
+	background-position: 5px -118px;
+}
+.edit-list .icon-edit{
+	right: 17%;
+	background-position: 5px -32px;
+}
+.edit-list .item-hd{
+	position: relative;
+	/*padding-bottom: 3.1%;*/
+	/*border-bottom: 1px solid #f3f3f3;*/
+}
+.edit-list .tit{
+	font-size: 1.6rem;
+}
+.edit-list .date{
+	color: #888; 
+}
+.edit-list .item-cnt{
+	margin-top: 3.1%; padding-top: 3.1%;
+	border-top: 1px solid #f3f3f3;
+}
+.edit-list .info span{
+	margin-right: 8%;
+}
+
+/*.edit-list .name{
+	font-weight: bold; margin-right: 2%;
+}*/
+
+
+.mt10{margin-top:10px}
+.mb10{margin-bottom:10px}
+.mb20{margin-bottom:20px}
+.mb30{margin-bottom:30px}
+
+
+
+
+
+
+
+
+

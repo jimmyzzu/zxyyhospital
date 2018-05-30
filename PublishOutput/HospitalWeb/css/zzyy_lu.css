@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+#daozhen{
+	background:none;
+	}
+.suggestion .nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+   /* border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;*/
+}
+.suggestion .item {
+    display: block;
+    width: 50%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+	border: 1px solid #21a2c6;
+	color:#999;
+}
+.suggestion .item.on {
+    background-color: #21a2c6;
+    color: #fff;
+	border: 1px solid #21a2c6;
+}
+.suggestion .item.on a{
+	color:#fff;
+}
+.suggestion{
+	margin:10px auto;
+    width:90%;
+}
+/*.renwu{
+	width: 66.5%;
+    margin: 0 auto;
+}*/
+.renwu .man{
+	    max-height: 650px;
+        height: 100%;
+		margin: 0 auto;
+        
+		
+}
+.renwu img{
+	    max-height: 650px;
+        height: 100%;
+		width:100%;
+}
+.renwu .btn1{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn1 a{
+	color: #21a2c6;
+}
+.renwu .btn2{
+	    
+   width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn2 a{
+	color: #21a2c6;
+}
+.renwu .btn3{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn3 a{
+	color: #21a2c6;
+}
+.renwu .btn4{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn4 a{
+	color: #21a2c6;
+}
+.renwu .btn5{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn5 a{
+	color: #21a2c6;
+}
+.renwu1 .btn6{
+	    
+    width: 80px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn6 a{
+	color: #21a2c6;
+}
+.renwu1 .btn7{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn7 a{
+	color: #21a2c6;
+}
+.renwu1 .btn8{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn8 a{
+	color: #21a2c6;
+}
+.renwu1 .btn9{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn9 a{
+	color: #21a2c6;
+}
+.renwu1 .btn10{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn10 a{
+	color: #21a2c6;
+}
+.renwu .btn11{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn11 a{
+	color: #21a2c6;
+}
+.renwu .btn12{
+    border-radius: 6px;
+	display: block;text-align: center;line-height: 30px;position: relative;
+    
+}
+.renwu .btn12 img{
+	color: #21a2c6;
+	width:65%;
+}
+.renwu{
+		background-image:url(../images/m1.png);
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: contain;
+}
+.renwu a{
+	    
+}
+.renwu .btn13{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn13 a{
+	color: #21a2c6;
+}
+.renwu .btn14{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn14 a{
+	color: #21a2c6;
+}
+.renwu .btn15{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn15 a{
+	color: #21a2c6;
+}
+.renwu .btn16{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn16 a{
+	color: #21a2c6;
+}
+.renwu1 .btn17{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn17 a{
+	color: #21a2c6;
+}
+.renwu1 .btn18{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn18 a{
+	color: #21a2c6;
+}
+.renwu1 .btn19{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu1 .btn19 a{
+	color: #21a2c6;
+}
+.renwu .btn20{
+	    
+    width: 60px;height: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px solid #21a2c6;
+	display: block;text-align: center;line-height: 30px;position: relative;
+}
+.renwu .btn20 a{
+	color: #21a2c6;
+}

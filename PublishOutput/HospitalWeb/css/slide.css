@@ -1,0 +1,24 @@
+
+section:after, .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.banner {
+    /*height: 230px;*/
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.clearfix {
+    clear: both;
+}
+.banner ul, .banner ul li.item, .banner ul li.item .banner_img {
+    /*height: 230px;*/
+    overflow: hidden;
+    width: 100%;
+}

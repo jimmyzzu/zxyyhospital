@@ -1,0 +1,34 @@
+#imgTip{height:100%;background:white; border:solid 5px #666;position:absolute;z-index:101;cursor: e-resize;}
+#imgTip .title{background-color:#666;padding:10px;color:#fff;font-size:16px;font-weight:bold;}
+#imgTip .title input{float:right;cursor:pointer;}
+#imgTip_conent{background-color:#fff;}
+#imgTip_conent img{max-width:100%;width:100%;}
+.mask{width:100%;height:100%;background-color:#000;position:absolute;top:0px;left:0px; 
+opacity: 0.3; /* Firefox, Safari(WebKit), Opera */
+   -ms-filter: "alpha(opacity=30)"; /* IE 8 */
+   filter: alpha(opacity=30);       /* IE 4-7 */
+   zoom: 1;/* set "zoom", "width" or "height" to trigger "hasLayout" in IE 7 and lower */
+   display:none;z-index:100;}
+
+.disri_mob01{height:auto; clear:both;}
+  .disri_mob01 dl{ margin-bottom:15px; padding-top:10px; padding-left:5px; position:relative;}
+  .disri_mob01 dl dt{ float:left; width:127px; height:104px; line-height:20px; padding-left:5px;color:#FFF; clear:both; font-size:10px; font-weight:bold; margin-right:30px; position:absolute; top:20px; left:0;}
+  .disri_mob01 dl#Floors dd{ float:left; width:30px; height:30px; line-height:30px;font-size:16px; font-weight:bold; margin:0 5px 5px 0; border:#DDD5CF 1px solid; text-align:center;color:#232323;}
+  .disri_mob01 dl#Offices dd{ float:left; height:auto; line-height:20px;font-size:13px; font-weight:bold; margin:0 10px 10px 0; border:#DDD5CF 1px solid; text-align:center;color:#232323;}
+  .disri_mob01 dl#Floors dd.longer{ line-height:22px;}
+  .disri_mob01 dl dd a{color:#232323;}
+  .disri_mob01 dl#Floors dd.on,.disri_mob01 dl#Floors dd:hover{ background:#FF7800;color:#FFF;}
+  .disri_mob01 dl#Floors dd.on a,.disri_mob01 dl#Floors dd:hover a{color:#FFF}
+
+.FloorImages{position:relative;	width:100%;overflow:hidden;display:block;}
+.FloorImagesContent{position:absolute;top:0px;left:0px;width:100%;}
+.FloorImagesContent div{margin-bottom:0px;}
+
+#imgTip1{height:100%;background:white; border:solid 5px #666;position:absolute;}
+#imgTip1 .title{background-color:#666;padding:10px;color:#fff;font-size:16px;font-weight:bold;}
+#imgTip1 .title input{float:right;cursor:pointer;}
+#imgTip_conent1{height:auto;background-color:#fff;}
+#imgTip_conent1 img{height:auto;max-width:100%;width:100%;}
+
+.map_location{ position:absolute; padding-bottom:0.8em;background:url(../images/drop-arrow.png) scroll 50% 0.95em no-repeat; background-size:0.8em 0.6em; text-decoration:none;}
+.map_location span{padding:0.25em 0.5em;font-size:0.8em;color:#21a2c6; border-radius:0.5em; background-color:#fff; border:1px solid #21a2c6;}

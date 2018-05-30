@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head id="Head1" runat="server"> 
+ <title>体检套餐建议</title>
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<meta charset="utf-8">
+<link href="css/news.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/slide.css" type="text/css">
+<link rel="stylesheet" href="css/resume.css" type="text/css">
+
+<script src="js/jquery.min.1.9.1.js" type="text/javascript"></script>
+<script type="text/javascript">　
+    /*调用微信预览图片的方法*/
+    function funcReadImgInfo() {
+        var imgs = [];
+        var imgObj = $("img"); //这里改成相应的对象
+        for (var i = 0; i < imgObj.length; i++) {
+            imgs.push(imgObj.eq(i).attr('src'));
+            imgObj.eq(i).click(function () {
+                var nowImgurl = $(this).attr('src');
+                WeixinJSBridge.invoke("imagePreview", {
+                    "urls": imgs,
+                    "current": nowImgurl
+                });
+            });
+        }
+    }
+    $(document).ready(function () {
+        funcReadImgInfo();
+    });
+</script>
+</head>
+<body id="cate6">
+ <form id="form1" runat="server">
+ <header class="ui-header">
+    <h1>体检套餐建议</h1>
+</header>
+<div class="jsy">
+    
+    <div class="tcnr mt20">    
+        <div class="dl">健康树与基因检测</div>
+        <div class="tcnr1">
+            <h2><span>温馨提示：</span>对照家族健康树，若您存在糖尿病、冠心病、高血压、脑卒中、肿瘤等家族史疾病，建议家族人群体检，筛选高危因素，做到早发现、早预防、早干预。</h2>
+            <img src="http://zxyy.topmd.cn/HospitalWeb/images/healthTree.jpg" />
+
+            <h3><span>项目：</span>乙醛脱氢酶2基因</h3>
+            <h3><span>检测意义：</span><br />1. 揭示不同个体的酒精代谢，避免乙醛伤害。<br />2. 指导正确使用硝酸甘油，减少用药无效导致的意外死亡。</h3>
+            <h3><span>适应症：</span>每一个人的ALDH2基因型终生不变，检测一次即可获益终生，值得每一个人进行检测。</h3>
+
+            <h2><span>项目：</span>亚甲基四氢叶酸还原酶基因</h2>
+            <h2>
+                <span>检测意义：</span>其参与多种代谢通路，若代谢通路障碍
+                <br />1. 使甲基化作用减弱，影响人体50多种重要物质的合成
+                <br />2. 损害血管的内皮细胞，是重要的心脑血管致病因素
+                <br />3. 可作用于孕妇敏感的胚胎神经细胞，导致无脑畸形和脊柱裂等不可逆损害
+                <br />4. 易导致泌尿系统结石
+            </h2>
+            <h2>
+                <span>适应症：</span>
+                <br />1. 妇幼保健类:神经管缺陷、先天性心脏病、唇腭裂、妊娠期高血压疾病，自发性流产；
+                <br />2. 肿瘤类:肺癌、胃癌、大肠癌等；
+                <br />3. 心脑血管类：高血压、冠心病、脑梗塞、脑溢血；
+                <br />4. 精神类疾病。
+            </h2>
+          </div>
+     </div>
+ 
+</div>      
+ </form>
+</body></html>
